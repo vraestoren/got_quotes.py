@@ -10,7 +10,7 @@ class GameOfThronesQuotes:
 		}
 
 	def _get(self, endpoint: str) -> dict:
-		return self.session.get(endpoint).json()
+		return self.session.get(f"{self.api}{endpoint}").json()
 
 	def get_random_quote(self, number: int = 1) -> dict:
 		return self._get(f"/random/{number}")
