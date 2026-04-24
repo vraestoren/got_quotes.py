@@ -2,7 +2,7 @@
   <img src="https://gameofthronesquotes.xyz/img/logo.png" width="120" />
 
 # game_of_thrones_quotes.py
-> Web-API for [Game of Thrones Quotes](https://gameofthronesquotes.xyz) — a REST API with quotes, characters, and houses from the Game of Thrones universe.
+> Web-API for [Game of Thrones Quotes](https://gameofthronesquotes.xyz) a REST API with quotes, characters, and houses from the Game of Thrones universe.
 </div>
 
 ## Quick Start
