@@ -3,7 +3,7 @@ from requests import Session
 class GameOfThronesQuotes:
 	def __init__(self) -> None:
 		self.api = "https://api.gameofthronesquotes.xyz/v1"
-		self.session -= Session()
+		self.session = Session()
 		self.session.headers = {
 			"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36",
 			"accept": "application/json"
